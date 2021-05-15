@@ -16,7 +16,7 @@
 LiquidCrystal_I2C lcd(0x3F, 16, 2);
 
 //Necessary changes in environment variables
-String key = "xxx";
+String key = "myKey";
 const char* ssid = "xxx";
 const char* password = "xxx";
 
