@@ -4,6 +4,18 @@
 
 <img src="pic.png" style="width:700px;height:500px;"><br><br>
 
+## Can be used with
+
+[microservice-investiment](https://github.com/marcelbraghini/microservice-investiment)
+
+## Post example
+
+```bash
+curl --location --request POST 'http://1.1.1.1/message' \
+--header 'Content-Type: application/json' \
+--data-raw '{"headerText":"Boa Noite!", "bodyText":"=)", "key":"myKey"}'
+```
+
 ## Requirements
 
 * NodeMCU
